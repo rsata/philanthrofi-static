@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
+nav.site-nav {
+  position: fixed; }
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,8 +11,8 @@ dl, dd, ol, ul, figure {
 .title-wrapper {
   text-align: center;
   height: 100vh;
-  background-color: red;
-  color: white;
+  background-color: #d4e9f3;
+  color: #fa8061;
   font-family: 'Varela Round', sans-serif; }
 
 .title {
@@ -47,7 +50,7 @@ dl, dd, ol, ul, figure {
   height: 24px;
   position: absolute;
   content: '';
-  background: #fff; }
+  background: #fa8061; }
 
 .heart:after {
   border-top-left-radius: 12px;
@@ -58,7 +61,7 @@ dl, dd, ol, ul, figure {
   height: 12px;
   position: absolute;
   content: '';
-  background: #fff; }
+  background: #fa8061; }
 
 @keyframes heartbeat {
   0% {
