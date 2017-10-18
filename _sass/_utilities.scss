@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab');
+
+$color-main: rgb(250,128,97);
+$color-secondary: rgb(212,233,243);
+
+$font-main: 'Lato', sans-serif;
+$font-header: 'Varela Round', sans-serif;
+
+body {
+  font-family: $font-main;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-header;
+}
+
+.buffer {
+  margin-top: 10px;
+}
+
+.buffer2 {
+  margin-top: 20px;
+}
