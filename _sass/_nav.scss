@@ -1,3 +1,7 @@
-nav.site-nav {
-  position: fixed;
+@import 'utilities';
+
+// Bootstrap overrides
+
+.navbar a {
+  color: $color-main!important;
 }

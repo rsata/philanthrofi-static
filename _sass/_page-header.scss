@@ -1,0 +1,31 @@
+@import 'utilities';
+
+$gradient-from: rgb(212,233,243);
+$gradient-to: rgb(117, 200, 238);
+
+.page-header {
+  // reset spacing
+  margin: 0;
+  padding: 0;
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.page-header {
+  height: 25vh;
+  text-align: center;
+  background: linear-gradient(to bottom right, $gradient-from, $gradient-to);
+  margin-bottom: 4vh;
+  h1.page-header-title {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $color-main;
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    border: solid 5px $color-main;
+  }
+}
