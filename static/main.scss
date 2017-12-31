@@ -13,7 +13,6 @@
 body { padding-top: 50px;}
 
 .title-wrapper {
-  text-align: center;
   height: 100vh;
   background-color: $color-secondary;
   color: $color-main;
@@ -28,10 +27,23 @@ body { padding-top: 50px;}
   h1 {
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 3.7em;
+    font-size: 3.9em;
   }
   p.subtitle {
     font-weight: bold;
     font-size: 1.5em;;
+  }
+}
+
+ul.title-menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin-top: 6px;
+    a {
+      font-size: 1.3em;
+      color: $color-main;
+    }
   }
 }
