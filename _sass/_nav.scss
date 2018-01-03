@@ -2,6 +2,23 @@
 
 // Bootstrap overrides
 
-.navbar a {
-  color: $color-main!important;
+.navbar {
+  background-color: $color-main!important;
+  a {
+    color: white!important;
+  }
+  li.dropdown.open > a {
+    background-color: rgb(117, 117, 117)!important;
+  }
+  ul.dropdown-menu {
+    background-color: $color-main;
+    li {
+      a:hover {
+        background-color: rgb(117, 117, 117);
+      }
+    }
+  }
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
 }
